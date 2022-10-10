@@ -1,0 +1,243 @@
+/* Reset styles */
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: 'Times New Roman', Times, serif;
+    resize: none;
+}
+
+body {
+    background-color: #ECEAEA;
+    overflow-x:hidden;
+}
+
+.header {
+    height: 900px;
+}
+
+.hat, .header_content, .mainSection, footer .countainer {
+    padding-left: 242px;
+    padding-right: 242px;
+}
+
+.hat {
+    background-color: #F1F2F2;
+    width: 100%;
+    height: 150px;
+    margin-top: -16px;
+}
+
+.article_hat {
+    font-size: 48px;
+    padding-top: 49px;
+    position: absolute;
+}
+
+.yellow {
+    color: #EDA31D;
+}
+
+.linkHat {
+    margin-left: 514px;
+    padding-top: 69px;
+}
+
+.linkHat:last-child {
+    margin-right: 0px;
+}
+
+.link {
+    margin-right: 90px;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+}
+
+.link:hover, .linkFooter:hover{
+    text-decoration: underline;
+    text-decoration-color: #EDA31D;
+}
+
+.hatDescript {
+    width: 540px;
+    height: 312px;
+    margin-top: 149px;
+}
+
+.articleHat {
+    font-size: 64px;
+}
+
+.descript {
+    font-size: 32px;
+    text-align: justify;
+}
+
+.blackwatch_main  {
+    background: url(img/blackwatch_main.png);
+    width: 332.15px;
+    height: 546px;
+    margin-top: -435px;
+    margin-left: 677px;
+}
+
+.aboutTheWatch {
+    margin-top: 72px;
+}
+
+.article {
+    font-size: 24px;
+    text-align: center;
+}
+
+.descriptTheWatch {
+    width: 540px;
+    height: 390px;
+    font-size: 24px;
+    text-align: justify;
+    margin-top: 52px;
+}
+
+.photo_watch {
+    background: url(img/photo_watch.png);
+    width: 475px;
+    height: 345.45px;
+    margin-left: 602px;
+    margin-top: -374px;
+}
+
+.models {
+    margin-top: 195px;
+}
+
+.model-x {
+    margin-top: 52px;
+}
+
+.photoModelX {
+    background: url(img/blackwatch_model-x.png);
+    width: 205.7px;
+    height: 390px;
+    margin: 0 auto 26px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.descriptModelX, .descriptModelY {
+    padding: 0px 48px 0px 48px;
+    height: 117px;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 39px;
+}
+
+.model-y {
+    margin-top: 117px;
+}
+
+.photoModelY {
+    background: url(img/blackwatch_model-y.png);
+    width: 315.73px;
+    height: 390px;
+    margin: 0 auto 26px;
+}
+
+.purchase {
+    margin-top: 156px;
+}
+
+.form {
+    margin-top: 26px;
+    padding: 0px 48px 0px 48px;
+    width: 920px;
+    height: 399px;
+}
+
+.inputFormInfo {
+    height: 295px;
+}
+
+.labelForm {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.inputForm, .butPurchase, .selectForm {
+    width: 350px;
+    height: 52px;
+    border: 3px solid #000;
+    font-size: 24px;
+}
+
+.selectForm {
+    width: 356px;
+    height: 57px;
+}
+
+.collum2 {
+    margin-top: -236px;
+    margin-left: 570px;
+}
+
+.none {
+    display: none;
+}
+
+.butPurchase {
+    background-color: #FFF;
+    font-weight: bold;
+    margin-top: 52px;
+    margin-left: 294px;
+    width: 356px;
+}
+
+.butPurchase:hover, .inputForm:focus {
+    border: 3px solid #EDA31D;
+    outline: 0;
+}
+
+.footer {
+    background: #E2E2E2;
+    height: 364px;
+    margin-top: 117px;
+}
+
+.info {
+    position: absolute;
+    width: 168px;
+    padding-top: 39px;
+    margin-left: 48px;
+    font-size: 32px;
+}
+
+.articleInf {
+    font-weight: bold;
+    margin-bottom: 39px;
+}
+
+.linkFooter {
+    color: #000;
+}
+
+
+
+.contact {
+    position: absolute;
+    padding-top: 39px;
+    margin-left: 522px;
+    font-size: 32px;
+}
+
+.articleCont {
+    font-weight: bold;
+    margin-bottom: 78px;
+}
+
+.number {
+    margin-right: 66px;
+}
