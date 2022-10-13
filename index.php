@@ -16,7 +16,7 @@
                 <div class="linkHat">
                     <a href="#models" class="link">MODELS</a>
                     <a href="#purchase" class="link">PURCHASE</a>
-                    <a href="#" class="link">ABOUT US</a>
+                    <a href="page/aboutUs.html" class="link">ABOUT US</a>
                 </div>
             </div>
 
@@ -87,22 +87,22 @@
             <div class="countainer">
                 
                 <h3 class="article">PURCHASE</h3>
-                <form action="#" method="get" class="form">
+                <form action="assets/handler.php" method="get" class="form">
                     <div class="inputFormInfo">
                         <div class="collum1">
                             <label for="enterName" class="labelForm">NAME</label><br>
-                            <input type="text" id="enterName" class="inputForm"><br><br>
+                            <input type="text" id="enterName" class="inputForm" name="enterName"><br><br>
                             <label for="enterSurname" class="labelForm">SURNAME</label><br>
-                            <input type="text" id="enterSurname" class="inputForm"><br><br>
+                            <input type="text" id="enterSurname" class="inputForm" name="enterSurname"><br><br>
                             <label for="enterPhone" class="labelForm">PHONE NUMBER</label><br>
-                            <input type="text" id="enterPhone" class="inputForm">
+                            <input type="text" id="enterPhone" class="inputForm" name="enterPhone">
                         </div>
                         
                         <div class="collum2">
                             <label for="enterAddress" class="labelForm">ADDRESS</label><br>
-                            <input type="text" id="enterAddress" class="inputForm"><br><br>
+                            <input type="text" id="enterAddress" class="inputForm" name="enterAddress"><br><br>
                             <label for="enterModel" class="labelForm">MODEL</label><br>
-                            <select id="enterModel" class="selectForm">
+                            <select id="enterModel" class="selectForm" name="enterModel">
                                 <option selected class="none"></option>
                                 <option value="modelX" class="modelX">Blackwatch-X</option>
                                 <option value="modelY" class="modelY">Blackwatch-Y</option>
@@ -110,7 +110,7 @@
                         </div>
                     </div>
                     
-                    <button type="sumbit" class="butPurchase">PURCHASE</button>
+                    <button type="sumbit" class="butPurchase" name="purchaseBtn">PURCHASE</button>
                 </form>
 
             </div>
@@ -125,7 +125,7 @@
                 <div class="articleInf">Information</div>
                 <a href="#models" class="linkFooter">MODELS</a><br><br>
                 <a href="#purchase" class="linkFooter">PURCHASE</a><br><br>
-                <a href="#" class="linkFooter">ABOUT US</a>
+                <a href="page/aboutUs.html" class="linkFooter">ABOUT US</a>
             </div>
 
             <div class="contact">
