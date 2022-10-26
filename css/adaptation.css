@@ -1,0 +1,358 @@
+@media screen and (max-width: 992px) {
+
+    .hat, .header_content, .mainSection, footer .countainer {
+        padding-left: 31px;
+        padding-right: 31px;
+    }
+
+    .hat {
+        width: 930px;
+    }
+
+    .linkHat {
+        margin-left: 480px;
+    }
+
+    .right {
+        margin-right: 31px;
+    }
+
+    .blackwatch_main {
+        margin-left: 573px;
+    }
+
+    .descriptTheWatch {
+        width: 424px;
+        height: 500px;
+    }
+
+    .photo_watch {
+        margin-left: 446px;
+        margin-top: -487px;
+    }
+
+    .descriptModelX, .descriptModelY {
+        padding: 0;
+    }
+
+    .info {
+        margin-left: 74px;
+    }
+
+    .contact {
+        margin-left: 390px;
+    }
+
+    .form {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .hat, .header_content, .mainSection, footer .countainer {
+        padding-left: 39px;
+        padding-right: 39px;
+    }
+
+    .hat {
+        width: 690px;
+    }
+
+    .linkHat {
+        padding-top: 37px;
+        margin-left: 540px;
+    }
+
+    .right {
+        margin-right: 31px;
+        margin-bottom: 9px;
+    }
+
+    .hatDescript {
+        width: 420px;
+        height: 331px;
+    }
+
+    .articleHat {
+        font-size: 57px;
+    }
+
+    .blackwatch_main {
+        margin-left: 397px;
+    }
+
+    .aboutTheWatch {
+        margin-top: 231px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .descriptTheWatch {
+        width: 570px;
+        height: 358px;
+    }
+
+    .photo_watch {
+        background: none;
+        width: 0;
+        height: 0;
+    }
+
+    .models {
+        margin-top: 717px;
+    }
+
+    .descriptModelX, .descriptModelY {
+        padding: 0;
+    }
+
+    .form {
+        padding: 0;
+        width: 690px;
+    }
+
+    .inputForm, .selectForm {
+        width: 330px;
+    }
+
+    .collum2 {
+        margin-left: 360px;
+    }
+
+    .butPurchase {
+        margin-left: 169px;
+    }
+
+    .info {
+        margin-left: 74px;
+    }
+
+    .contact {
+        margin-left: 390px;
+    }
+
+    .articleCont {
+        margin-bottom: 46px;
+    }
+
+    .indent {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .hat, .header_content, .mainSection, footer .countainer {
+        padding-left: 34px;
+        padding-right: 34px;
+    }
+
+    .hat {
+        width: 508px;
+    }
+
+    .linkHat {
+        padding-top: 37px;
+        margin-left: 377px;
+    }
+
+    .right {
+        margin-right: 31px;
+        margin-bottom: 9px;
+    }
+
+    .hatDescript {
+        width: 508px;
+        height: 294px;
+    }
+
+    .articleHat {
+        text-align: center;
+        font-size: 64px;
+    }
+
+    .blackwatch_main {
+        background: none;
+        width: 0;
+        height: 0;
+    }
+
+    .aboutTheWatch {
+        margin-top: 657px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .descriptTheWatch {
+        width: 510px;
+        height: 416px;
+    }
+
+    .models {
+        margin-top: 717px;
+    }
+
+    .descriptModelX, .descriptModelY {
+        padding: 0;
+    }
+
+    .form {
+        padding: 0;
+        width: 350px;
+        height: 585px;
+        margin-left: 18%;
+    }
+
+    .inputFormInfo {
+        height: 494px;
+    }
+
+    .labelForm {
+        width: 200px;
+    }
+
+    .inputForm{
+        width: 330px;
+    }
+
+    .collum2 {
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+
+    .selectForm {
+        width: 336px;
+    }
+
+    .butPurchase {
+        margin-top: 39px;
+        margin-left: -10px;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .info {
+        margin-left: 0px;
+    }
+
+    .contact {
+        margin-left: 45%;
+    }
+
+    .articleCont {
+        margin-bottom: 46px;
+    }
+
+    .indent {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .hat, .header_content, .mainSection, footer .countainer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .hat {
+        width: 290px;
+    }
+
+    .article_hat {
+        font-size: 39px;
+        padding-top: 13px;;
+    }
+    
+
+    .linkHat {
+        padding-top: 71px;
+        margin-left: 0px;
+    }
+
+    .right {
+        margin-right: 51px;
+    }
+
+    .right320 {
+        margin-right: 0;
+    }
+
+    .center {
+        padding-top: 19px;
+        margin-left: 25%;
+    }
+
+    .hatDescript {
+        width: 291px;
+        height: 409px;
+    }
+
+    .articleHat {
+        font-size: 40px;
+        margin-bottom: 45px;
+    }
+
+    .aboutTheWatch {
+        margin-top: 558px;
+    }
+
+    .descriptTheWatch {
+        width: 288px;
+        height: 751px;
+    }
+
+    .models {
+        margin-top: 550px;
+    }
+
+    .model-y {
+        margin-top: 245px;
+    }
+
+    .photoModelY {
+        width: 280.73px;
+    }
+
+    .purchase {
+        margin-top: 274px;
+    }
+
+    .form {
+        width: 290px;
+        margin-left: 0;
+    }
+
+    .inputForm{
+        width: 290px;
+    }
+
+    .selectForm, .butPurchase {
+        width: 296px;
+    }
+
+    .butPurchase {
+        margin-left: 0;
+    }
+
+    .footer {
+        height: 599px;
+        text-align: center;
+    }
+
+    .info {
+        margin-left: 21%;
+    }
+
+    .contact {
+        margin-top: 322px;
+        margin-left: 0;
+    }
+
+    .number {
+        margin-right: 0px;
+    }
+}

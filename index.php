@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blackwatch</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/adaptation.css">
 </head>
 <body>
     <header class="header">
@@ -14,9 +15,9 @@
             <div class="hat">
                 <h2 class="article_hat">Black and <span class="yellow">yellow</span></h2>
                 <div class="linkHat">
-                    <a href="#models" class="link">MODELS</a>
-                    <a href="#purchase" class="link">PURCHASE</a>
-                    <a href="page/aboutUs.html" class="link">ABOUT US</a>
+                    <a href="#models" class="link right">MODELS</a>
+                    <a href="#purchase" class="link right right320">PURCHASE</a>
+                    <a href="page/aboutUs.html" class="link center">ABOUT US</a>
                 </div>
             </div>
 
@@ -131,7 +132,7 @@
             <div class="contact">
                 <div class="articleCont">Contact details</div>
                 <span class="number">+7956465-65-47</span>
-                <span class="number">+7956465-65-47</span><br><br>
+                <span class="number">+7956465-65-47</span><br><br class="indent">
                 <span class="number">+7956465-65-47</span>
                 <span class="number">+7956465-65-47</span>
             </div>
