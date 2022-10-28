@@ -65,7 +65,6 @@
     }
 
     .right {
-        margin-right: 31px;
         margin-bottom: 9px;
     }
 
@@ -103,12 +102,7 @@
         margin-top: 717px;
     }
 
-    .descriptModelX, .descriptModelY {
-        padding: 0;
-    }
-
     .form {
-        padding: 0;
         width: 690px;
     }
 
@@ -122,14 +116,6 @@
 
     .butPurchase {
         margin-left: 169px;
-    }
-
-    .info {
-        margin-left: 74px;
-    }
-
-    .contact {
-        margin-left: 390px;
     }
 
     .articleCont {
@@ -153,13 +139,7 @@
     }
 
     .linkHat {
-        padding-top: 37px;
         margin-left: 377px;
-    }
-
-    .right {
-        margin-right: 31px;
-        margin-bottom: 9px;
     }
 
     .hatDescript {
@@ -189,16 +169,7 @@
         height: 416px;
     }
 
-    .models {
-        margin-top: 717px;
-    }
-
-    .descriptModelX, .descriptModelY {
-        padding: 0;
-    }
-
     .form {
-        padding: 0;
         width: 350px;
         height: 585px;
         margin-left: 18%;
@@ -210,10 +181,6 @@
 
     .labelForm {
         width: 200px;
-    }
-
-    .inputForm{
-        width: 330px;
     }
 
     .collum2 {
@@ -240,14 +207,6 @@
 
     .contact {
         margin-left: 45%;
-    }
-
-    .articleCont {
-        margin-bottom: 46px;
-    }
-
-    .indent {
-        display: none;
     }
 }
 
