@@ -7,6 +7,7 @@
     <title>Blackwatch</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/adaptation.css">
+    <link rel="icon" href="img/BWicon.png" type="image/x-icon">
 </head>
 <body>
     <header class="header">
@@ -88,22 +89,25 @@
             <div class="countainer">
                 
                 <h3 class="article">PURCHASE</h3>
-                <form action="assets/handler.php" method="get" class="form">
+                <div class="errMessage" id="errMessage">
+                    <span class="error">Data not found. Enter data into the form.</span>
+                </div>
+                <form action="assets/handler.php" method="get" class="form" name="formPurchape">
                     <div class="inputFormInfo">
                         <div class="collum1">
                             <label for="enterName" class="labelForm">NAME</label><br>
-                            <input type="text" id="enterName" class="inputForm" name="enterName"><br><br>
+                            <input type="text" id="enterName" class="inputForm" name="enterName" onfocus="(disableErrMess())"><br><br>
                             <label for="enterSurname" class="labelForm">SURNAME</label><br>
-                            <input type="text" id="enterSurname" class="inputForm" name="enterSurname"><br><br>
+                            <input type="text" id="enterSurname" class="inputForm" name="enterSurname" onfocus="(disableErrMess())"><br><br>
                             <label for="enterPhone" class="labelForm">PHONE NUMBER</label><br>
-                            <input type="text" id="enterPhone" class="inputForm" name="enterPhone">
+                            <input type="text" id="enterPhone" class="inputForm" name="enterPhone" onfocus="(disableErrMess())">
                         </div>
                         
                         <div class="collum2">
                             <label for="enterAddress" class="labelForm">ADDRESS</label><br>
-                            <input type="text" id="enterAddress" class="inputForm" name="enterAddress"><br><br>
+                            <input type="text" id="enterAddress" class="inputForm" name="enterAddress" onfocus="(disableErrMess())"><br><br>
                             <label for="enterModel" class="labelForm">MODEL</label><br>
-                            <select id="enterModel" class="selectForm" name="enterModel">
+                            <select id="enterModel" class="selectForm inputForm" name="enterModel" onfocus="(disableErrMess())">
                                 <option selected class="none"></option>
                                 <option value="modelX" class="modelX">Blackwatch-X</option>
                                 <option value="modelY" class="modelY">Blackwatch-Y</option>
@@ -111,7 +115,44 @@
                         </div>
                     </div>
                     
-                    <button type="sumbit" class="butPurchase" name="purchaseBtn">PURCHASE</button>
+                    <button type="button" id="purchaseBtn" class="butPurchase" name="purchaseBtn">PURCHASE</button>
+
+                    <!-- Modal Input Window -->
+                    <div class="modal" id="dataValidation">
+                        <div class="modal_content">
+                            <div class="dataPurchase">
+                                <div class="mTitle">Confirmation of an order</div>
+                                <div class="data">
+
+                                    <div class="dataConfirm">
+                                        <span class="dataName">Name:</span>
+                                        <span class="textdata" id="dataName"></span>
+                                    </div>
+                                    <div class="dataConfirm">
+                                        <span class="dataName">Surname:</span>
+                                        <span class="textdata" id="dataSurname"></span>
+                                    </div>
+                                    <div class="dataConfirm">
+                                        <span class="dataName">Phone number:</span>
+                                        <span class="textdata" id="dataPhone"></span>
+                                    </div>
+                                    <div class="dataConfirm">
+                                        <span class="dataName">Address:</span>
+                                        <span class="textdata" id="dataAddress"></span>
+                                    </div>
+                                    <div class="dataConfirm">
+                                        <span class="dataName">Modal:</span>
+                                        <span class="textdata" id="dataModel"></span>
+                                    </div>
+                                    <div class="buttonModal">
+                                        <button type="submit" class="butConfirm" name="butConfirm">CONFIRM</button>
+                                        <button type="button" id="butCancel" class="butCancel">CANCEL</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </form>
 
             </div>
@@ -138,5 +179,8 @@
             </div>
         </div>
     </footer>
+
+    <!-- Connecting to js -->
+    <script src="script.js"></script>
 </body>
 </html>

@@ -3,15 +3,12 @@
 // Database connection
 $dbh = new PDO('mysql:host=localhost;dbname=blackwatch', "root", "root");
 
-echo $_GET["purchaseBtn"];
-
-
-if(isset($_GET["purchaseBtn"])){
+if(isset($_GET["butConfirm"])) {
     $name    = $_GET["enterName"];
     $surname = $_GET["enterSurname"];
     $phone   = $_GET["enterPhone"];
     $address = $_GET["enterAddress"]; 
-    $model   = $_GET["enterModel"]; 
+    $model   = $_GET["enterModel"];
     
     $sql = "INSERT INTO `orders`(`name`, `surname`, `phone`, `address`, `model`) VALUES (:name, :surname, :phone, :address, :model)";
     $params = [
@@ -20,7 +17,7 @@ if(isset($_GET["purchaseBtn"])){
         "phone"   => $phone,
         "address" => $address,
         "model"   => $model
-    ];
+        ];
     $dbh->prepare($sql)->execute($params);
     header("Location: ../index.php");
 
