@@ -1,24 +1,38 @@
-@media screen and (max-width: 992px) {
-
-    .hat, .header_content, .mainSection, footer .countainer {
-        padding-left: 31px;
-        padding-right: 31px;
-    }
-
-    .hat {
-        width: 930px;
-    }
-
-    .linkHat {
-        margin-left: 480px;
+@media screen and (max-width: 1150px) {
+    .countainer {
+        max-width: 992px;
     }
 
     .right {
         margin-right: 31px;
     }
 
-    .blackwatch_main {
-        margin-left: 573px;
+    .description_watch {
+        height: 484px;
+    }
+
+    .descriptTheWatch {
+        width: 460px;
+        height: 432px;
+    }
+
+    .descriptModelX, .descriptModelY {
+        padding: 0;
+    }
+
+    .modal_content {
+        box-sizing: border-box;
+        max-width: 920px;
+    }
+
+    .butConfirm, .butCancel {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .countainer {
+        max-width: 920px;
     }
 
     .descriptTheWatch {
@@ -26,100 +40,119 @@
         height: 500px;
     }
 
+    .blackwatch_main {
+        margin-right: 0px;
+    }
+
+    .description_watch {
+        height: 552px;
+    }
+
     .photo_watch {
-        margin-left: 446px;
-        margin-top: -487px;
+        width: 435px;
+        height: 300.45px;
     }
 
-    .descriptModelX, .descriptModelY {
-        padding: 0;
+    .models, .purchase {
+        margin-top: 90px;
     }
 
-    .info {
-        margin-left: 74px;
+    .modal_content {
+        height: 432px;
+        margin-top: 48px;
     }
 
-    .contact {
-        margin-left: 390px;
+    .data {
+        height: 296px;
     }
 
-    .form {
-        padding: 0;
+    .buttonModal {
+        margin-top: 48px;
     }
 }
 
 @media screen and (max-width: 768px) {
 
-    .hat, .header_content, .mainSection, footer .countainer {
-        padding-left: 39px;
-        padding-right: 39px;
-    }
-
-    .hat {
-        width: 690px;
+    .countainer {
+        max-width: 690px;
     }
 
     .linkHat {
-        padding-top: 37px;
-        margin-left: 540px;
+        padding-top: 27px;
+        width: 160px;
     }
 
     .right {
+        margin-right: 0;
         margin-bottom: 9px;
+        display: block;
     }
 
     .hatDescript {
-        width: 420px;
-        height: 331px;
-    }
-
-    .articleHat {
-        font-size: 57px;
+        position: static;
+        margin: 149px auto 0;
+        width: 100%;
+        height: 256px;
     }
 
     .blackwatch_main {
-        margin-left: 397px;
+        display: none;
+    }
+
+    .articleHat {
+        text-align: center;
+        font-size: 57px;
+    }
+
+    .descript {
+        margin: 40px auto 0;
+        width: 100%;
+        max-width: 600px;
     }
 
     .aboutTheWatch {
         margin-top: 231px;
-        padding-left: 60px;
-        padding-right: 60px;
     }
 
     .descriptTheWatch {
+        position: static;
+        margin: 52px auto 0;
         width: 570px;
         height: 358px;
     }
 
     .photo_watch {
-        background: none;
-        width: 0;
-        height: 0;
+        display: none;
     }
 
     .models {
-        margin-top: 717px;
+        margin-top: 227px;
     }
 
     .form {
         width: 690px;
     }
 
-    .inputForm, .selectForm {
+    .inputForm {
         width: 330px;
     }
 
-    .collum2 {
-        margin-left: 360px;
+    .selectForm {
+        width: 336px;
     }
 
-    .butPurchase {
-        margin-left: 169px;
+    .contact {
+        width: 218px;
     }
 
     .articleCont {
         margin-bottom: 46px;
+    }
+
+    .number {
+        display: inline-block;
+        margin-right: 0;
+        margin-bottom: 16px;
     }
 
     .indent {
@@ -127,77 +160,81 @@
     }
 }
 
+@media screen and (max-width: 700px) {
+    .form {
+        width: 340px;
+        height: 585px;
+    }
+
+    .collum2 {
+        margin-top: 20px;
+    }
+
+    .butPurchase {
+        margin-top: 30px;
+        margin-left: -5px;
+    }
+
+    .buttonModal, .butConfirm, .butCancel {
+        width: 350px;
+    }
+
+    .modal_content {
+        margin-top: 24px;
+        max-width: 600px;
+        height: 454px;
+    }
+
+    .data {
+        margin-top: 24px;
+    }
+
+    .buttonModal {
+        margin-top: 24px;
+    }
+
+    .butConfirm {
+        position: static;
+    }
+
+    .butCancel {
+        margin-top: 12px;
+    }
+}
+
 @media screen and (max-width: 576px) {
-
-    .hat, .header_content, .mainSection, footer .countainer {
-        padding-left: 34px;
-        padding-right: 34px;
-    }
-
-    .hat {
-        width: 508px;
-    }
-
-    .linkHat {
-        margin-left: 377px;
+    .countainer {
+        max-width: 508px;
     }
 
     .hatDescript {
-        width: 508px;
         height: 294px;
     }
 
     .articleHat {
-        text-align: center;
         font-size: 64px;
     }
 
-    .blackwatch_main {
-        background: none;
-        width: 0;
-        height: 0;
-    }
-
-    .aboutTheWatch {
-        margin-top: 657px;
-        padding-left: 0;
-        padding-right: 0;
+    .linkHat {
+        width: 134px;
     }
 
     .descriptTheWatch {
-        width: 510px;
+        width: 100%;
         height: 416px;
     }
 
-    .form {
-        width: 350px;
-        height: 585px;
-        margin-left: 18%;
+    .descriptModelX, .descriptModelY {
+        height: 190px;
     }
 
-    .inputFormInfo {
-        height: 494px;
+    .modal_content {
+        max-width: 508px;
+        padding-left: 32px;
+        padding-right: 32px;
     }
 
-    .labelForm {
-        width: 200px;
-    }
-
-    .collum2 {
-        margin-top: 15px;
-        margin-left: 0px;
-    }
-
-    .selectForm {
-        width: 336px;
-    }
-
-    .butPurchase {
-        margin-top: 39px;
-        margin-left: -10px;
-    }
-
-    .footer {
+    .butConfirm, .butCancel {
         width: 100%;
     }
 
@@ -206,45 +243,52 @@
     }
 
     .contact {
-        margin-left: 45%;
+        margin-right: 0px;
     }
 }
 
-@media screen and (max-width: 320px) {
-
-    .hat, .header_content, .mainSection, footer .countainer {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
-    .hat {
-        width: 290px;
+@media screen and (max-width: 490px) {
+    .countainer, .modal_content {
+        max-width: 320px;
     }
 
     .article_hat {
         font-size: 39px;
-        padding-top: 13px;;
+        padding-top: 13px;
+        width: 100%;
+        max-width: 320px;
+        text-align: center;
     }
     
-
     .linkHat {
         padding-top: 71px;
         margin-left: 0px;
+        width: 100%;
     }
 
     .right {
-        margin-right: 51px;
+        margin-bottom: 0;
     }
 
-    .right320 {
-        margin-right: 0;
+    .oneLink, .twoLink, .bottom {
+        display: block;
     }
 
-    .center {
-        padding-top: 19px;
-        margin-left: 25%;
+    .oneLink {
+        position: absolute;
+        width: 150px;
     }
 
+    .twoLink {
+        width: 100%;
+        text-align: right;
+    }
+
+    .bottom {
+        text-align: center;
+        margin: 5px auto 0;
+    }
+    
     .hatDescript {
         width: 291px;
         height: 409px;
@@ -256,16 +300,20 @@
     }
 
     .aboutTheWatch {
-        margin-top: 558px;
+        margin-top: 230px;
+    }
+
+    .description_watch {
+        height: 782px;
     }
 
     .descriptTheWatch {
         width: 288px;
-        height: 751px;
+        height: 730px;
     }
 
     .models {
-        margin-top: 550px;
+        margin-top: 230px;
     }
 
     .model-y {
@@ -273,7 +321,7 @@
     }
 
     .photoModelY {
-        width: 280.73px;
+        width: 100%;
     }
 
     .purchase {
@@ -281,37 +329,64 @@
     }
 
     .form {
-        width: 290px;
-        margin-left: 0;
+        width: 100%;
     }
 
-    .inputForm{
-        width: 290px;
+    .inputFormInfo {
+        max-width: 290px;
     }
 
-    .selectForm, .butPurchase {
-        width: 296px;
+    .inputForm, .selectForm, .butPurchase, .btnForm {
+        width: 100%;
+        max-width: 290px;
+    }
+
+    .inputForm, .selectForm, .btnForm  {
+        box-sizing: border-box;
     }
 
     .butPurchase {
         margin-left: 0;
     }
 
+    .modal_content {
+        margin-top: 6px;
+        height: 490px;
+        padding: 4px;
+    }
+
+    .buttonModal {
+        width: 100%;
+    }
+
     .footer {
-        height: 599px;
+        height: 690px;
         text-align: center;
     }
 
     .info {
-        margin-left: 21%;
+        position: static;
+        width: 100%;
     }
 
     .contact {
-        margin-top: 322px;
-        margin-left: 0;
+        margin-top: 62px;
+        width: 100%;
+        padding-top: 0;
+        float: none;
     }
 
-    .number {
-        margin-right: 0px;
+    .contact:last-child {
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .countainer {
+        max-width: 290px;
+    }
+
+    .article_hat {
+        max-width: 290px;
     }
 }

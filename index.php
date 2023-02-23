@@ -10,18 +10,27 @@
     <link rel="icon" href="img/BWicon.png" type="image/x-icon">
 </head>
 <body>
-    <header class="header">
-        <div class="countainer">
 
-            <div class="hat">
+    <!-- Header section -->
+    <header class="header">
+        <div class="hat">
+            <div class="countainer">
                 <h2 class="article_hat">Black and <span class="yellow">yellow</span></h2>
                 <div class="linkHat">
-                    <a href="#models" class="link right">MODELS</a>
-                    <a href="#purchase" class="link right right320">PURCHASE</a>
-                    <a href="page/aboutUs.html" class="link center">ABOUT US</a>
+                    <div class="oneLink">
+                        <a href="#models" class="link right">MODELS</a>
+                    </div>
+                    <div class="twoLink">
+                        <a href="#purchase" class="link right">PURCHASE</a>
+                    </div>
+                    <div class="bottom">
+                        <a href="page/aboutUs.html" class="link">ABOUT US</a>
+                    </div>
                 </div>
             </div>
+        </div>
 
+        <div class="countainer">
             <div class="header_content">
                 <div class="hatDescript">
                     <h1 class="articleHat">BLACKWATCH</h1>
@@ -32,30 +41,34 @@
                 </div>
                 <div class="blackwatch_main"></div>
             </div>
-        
         </div>
     </header>
 
+    <!-- Main section -->
     <main class="mainSection">
 
+        <!-- About the watch section -->
         <section class="aboutTheWatch">
             <div class="countainer">
                 
                 <h3 class="article">ABOUT THE WATCH</h3>
-                <div class="descriptTheWatch">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin congue velit lectus, sed faucibus 
-                    elit commodo at. Nulla facilisi. Nunc scelerisque nisl elementum elit bibendum, vel feugiat sapien elementum. 
-                    Sed in mauris ut libero dignissim posuere eget et ante. Nunc vitae aliquam arcu. Donec pharetra enim vel vehicula 
-                    vestibulum. Pellentesque malesuada risus ut augue lacinia gravida. Nullam tristique suscipit arcu ut tempus. Ut leo 
-                    odio, tempus at magna nec, luctus consequat urna. Morbi a nisl tellus. Nulla enim dui, iaculis in nulla eu, pellentesque 
-                    ultrices lectus. In sed pharetra neque, non ultrices erat. Ut ex odio, imperdiet sit amet rhoncus at, facilisis non ligula. 
-                    Donec vitae consectetur nulla.
+                <div class="description_watch">
+                    <div class="descriptTheWatch">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin congue velit lectus, sed faucibus 
+                        elit commodo at. Nulla facilisi. Nunc scelerisque nisl elementum elit bibendum, vel feugiat sapien elementum. 
+                        Sed in mauris ut libero dignissim posuere eget et ante. Nunc vitae aliquam arcu. Donec pharetra enim vel vehicula 
+                        vestibulum. Pellentesque malesuada risus ut augue lacinia gravida. Nullam tristique suscipit arcu ut tempus. Ut leo 
+                        odio, tempus at magna nec, luctus consequat urna. Morbi a nisl tellus. Nulla enim dui, iaculis in nulla eu, pellentesque 
+                        ultrices lectus. In sed pharetra neque, non ultrices erat. Ut ex odio, imperdiet sit amet rhoncus at, facilisis non ligula. 
+                        Donec vitae consectetur nulla.
+                    </div>
+                    <div class="photo_watch"></div>
                 </div>
-                <div class="photo_watch"></div>
 
             </div>
         </section>
 
+        <!-- Models section -->
         <section class="models" id="models">
             <div class="countainer">
 
@@ -85,6 +98,7 @@
             </div>
         </section>
 
+        <!-- Purchase section -->
         <section class="purchase" id="purchase">
             <div class="countainer">
                 
@@ -115,7 +129,9 @@
                         </div>
                     </div>
                     
-                    <button type="button" id="purchaseBtn" class="butPurchase" name="purchaseBtn">PURCHASE</button>
+                    <div class="btnForm">
+                        <button type="button" id="purchaseBtn" class="butPurchase" name="purchaseBtn">PURCHASE</button>
+                    </div>
 
                     <!-- Modal Input Window -->
                     <div class="modal" id="dataValidation">
@@ -160,6 +176,7 @@
 
     </main>
 
+    <!-- Footer section -->
     <footer class="footer">
         <div class="countainer">
 
@@ -173,7 +190,7 @@
             <div class="contact">
                 <div class="articleCont">Contact details</div>
                 <span class="number">+7956465-65-47</span>
-                <span class="number">+7956465-65-47</span><br><br class="indent">
+                <span class="number">+7956465-65-47</span><br class="indent"><br class="indent">
                 <span class="number">+7956465-65-47</span>
                 <span class="number">+7956465-65-47</span>
             </div>

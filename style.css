@@ -7,18 +7,21 @@
     resize: none;
 }
 
+.countainer {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+/* Body styles */
 body {
     background-color: #ECEAEA;
 }
 
-.hat, .header_content, .mainSection, footer .countainer {
-    padding-left: 242px;
-    padding-right: 242px;
-}
-
+/* Header styles */
 .hat {
     background-color: #F1F2F2;
-    width: 1060px;
+    width: 100%;
     height: 150px;
     margin-top: -16px;
 }
@@ -34,9 +37,9 @@ body {
 }
 
 .linkHat {
-    position: absolute;
-    margin-left: 514px;
+    float: right;
     padding-top: 69px;
+    width: 466px;
 }
 
 .link {
@@ -46,7 +49,12 @@ body {
 }
 
 .right {
-    margin-right: 90px;
+    margin-right: 44px;
+}
+
+.oneLink, .twoLink, .bottom {
+    display: inline-block;
+    width: max-content;
 }
 
 .link:hover, .linkFooter:hover{
@@ -54,9 +62,15 @@ body {
     text-decoration-color: #EDA31D;
 }
 
+.header_content {
+    width: 100%;
+    height: 574px;
+}
+
 .hatDescript {
+    position: absolute;
     width: 540px;
-    height: 312px;
+    height: 260px;
     margin-top: 149px;
 }
 
@@ -73,10 +87,12 @@ body {
     background: url(img/blackwatch_main.png);
     width: 332px;
     height: 546px;
-    margin-top: -435px;
-    margin-left: 677px;
+    margin-top: 26px;
+    margin-right: 84px;
+    float: right;
 }
 
+/* About the watch styles */
 .aboutTheWatch {
     margin-top: 72px;
 }
@@ -86,7 +102,13 @@ body {
     text-align: center;
 }
 
+.description_watch {
+    width: 100%;
+    height: 442px;
+}
+
 .descriptTheWatch {
+    position: absolute;
     width: 540px;
     height: 390px;
     font-size: 24px;
@@ -98,10 +120,11 @@ body {
     background: url(img/photo_watch.png);
     width: 475px;
     height: 345.45px;
-    margin-left: 602px;
-    margin-top: -374px;
+    float: right;
+    margin-top: 68px;
 }
 
+/* Models styles */
 .models {
     margin-top: 195px;
 }
@@ -142,6 +165,7 @@ body {
     margin: 0 auto 26px;
 }
 
+/* Modal window styles */
 .modal {
     display: none;
     position: fixed;
@@ -156,11 +180,11 @@ body {
 
 .modal_content {
     background-color: #ECEAEA;
-    margin-top: 65px;
-    margin-left: 310px;
-    margin-right: 310px;
+    margin: 48px auto 0;
+    width: 100%;
+    max-width: 920px;
     padding: 26px 95px;
-    height: 552px;
+    height: 500px;
     overflow: auto;
     font-weight: bold;
 }
@@ -181,7 +205,8 @@ body {
 }
 
 .buttonModal {
-    margin-top: 148px;
+    margin: 148px auto 0;
+    width: 90%;
     height: 52px;
 }
 
@@ -194,9 +219,12 @@ body {
     height: 52px;
 }
 
-.butCancel {
+.butConfirm {
     position: absolute;
-    margin-left: 2%;
+}
+
+.butCancel {
+    float: right;
 }
 
 .butConfirm:hover, .butCancel:hover {
@@ -204,6 +232,7 @@ body {
     outline: 0;
 }
 
+/* Purchase styles */
 .purchase {
     margin-top: 156px;
 }
@@ -220,13 +249,14 @@ body {
 }
 
 .form {
-    margin-top: 26px;
-    padding: 0px 48px 0px 68px;
-    width: 920px;
+    margin: 26px auto 0;
+    width: 100%;
     height: 399px;
 }
 
 .inputFormInfo {
+    max-width: 920px;
+    margin: 0 auto;
     height: 295px;
 }
 
@@ -249,18 +279,21 @@ body {
 
 .collum2 {
     margin-top: -236px;
-    margin-left: 570px;
+    float: right;
 }
 
 .none {
     display: none;
 }
 
+.btnForm {
+    margin: 52px auto 0px;
+    width: max-content;
+}
+
 .butPurchase {
     background-color: #FFF;
     font-weight: bold;
-    margin-top: 52px;
-    margin-left: 286px;
     width: 356px;
 }
 
@@ -269,6 +302,7 @@ body {
     outline: 0;
 }
 
+/* Footer styles */
 .footer {
     background: #E2E2E2;
     width: 100%;
@@ -294,9 +328,9 @@ body {
 }
 
 .contact {
-    position: absolute;
+    float: right;
     padding-top: 39px;
-    margin-left: 522px;
+    margin-right: 24px;
     font-size: 32px;
 }
 
