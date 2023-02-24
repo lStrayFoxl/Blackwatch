@@ -32,6 +32,10 @@ body {
     position: absolute;
 }
 
+.linkMain {
+    color: #000;
+}
+
 .yellow {
     color: #EDA31D;
 }

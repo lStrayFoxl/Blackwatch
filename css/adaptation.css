@@ -1,3 +1,4 @@
+/* Adapting styles to a 1150px screen */
 @media screen and (max-width: 1150px) {
     .countainer {
         max-width: 992px;
@@ -30,6 +31,7 @@
     }
 }
 
+/* Transitional style for content adaptation */
 @media screen and (max-width: 992px) {
     .countainer {
         max-width: 920px;
@@ -71,6 +73,7 @@
     }
 }
 
+/* Adapting styles to a 768px screen */
 @media screen and (max-width: 768px) {
 
     .countainer {
@@ -160,6 +163,7 @@
     }
 }
 
+/* Transitional style for content adaptation */
 @media screen and (max-width: 700px) {
     .form {
         width: 340px;
@@ -202,6 +206,7 @@
     }
 }
 
+/* Adapting styles to a 576px screen */
 @media screen and (max-width: 576px) {
     .countainer {
         max-width: 508px;
@@ -247,6 +252,7 @@
     }
 }
 
+/* Transitional style for content adaptation */
 @media screen and (max-width: 490px) {
     .countainer, .modal_content {
         max-width: 320px;
@@ -381,6 +387,7 @@
     }
 }
 
+/* Adapting styles to a 320px screen */
 @media screen and (max-width: 320px) {
     .countainer {
         max-width: 290px;

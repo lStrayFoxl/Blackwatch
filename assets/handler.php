@@ -3,13 +3,15 @@
 // Database connection
 $dbh = new PDO('mysql:host=localhost;dbname=blackwatch', "root", "root");
 
-if(isset($_GET["butConfirm"])) {
-    $name    = $_GET["enterName"];
-    $surname = $_GET["enterSurname"];
-    $phone   = $_GET["enterPhone"];
-    $address = $_GET["enterAddress"]; 
-    $model   = $_GET["enterModel"];
+// Getting data from a form
+if(isset($_POST["butConfirm"])) {
+    $name    = $_POST["enterName"];
+    $surname = $_POST["enterSurname"];
+    $phone   = $_POST["enterPhone"];
+    $address = $_POST["enterAddress"]; 
+    $model   = $_POST["enterModel"];
     
+    // Sql-query to database
     $sql = "INSERT INTO `orders`(`name`, `surname`, `phone`, `address`, `model`) VALUES (:name, :surname, :phone, :address, :model)";
     $params = [
         "name"    => $name,
@@ -18,6 +20,8 @@ if(isset($_GET["butConfirm"])) {
         "address" => $address,
         "model"   => $model
         ];
+    
+    // Sending data to the database
     $dbh->prepare($sql)->execute($params);
     header("Location: ../index.php");
 

@@ -15,7 +15,9 @@
     <header class="header">
         <div class="hat">
             <div class="countainer">
-                <h2 class="article_hat">Black and <span class="yellow">yellow</span></h2>
+                <h2 class="article_hat">
+                    <a href="index.php" class="linkMain">Black and <span class="yellow">yellow</span></a>
+                </h2> 
                 <div class="linkHat">
                     <div class="oneLink">
                         <a href="#models" class="link right">MODELS</a>
@@ -106,7 +108,7 @@
                 <div class="errMessage" id="errMessage">
                     <span class="error">Data not found. Enter data into the form.</span>
                 </div>
-                <form action="assets/handler.php" method="get" class="form" name="formPurchape">
+                <form action="assets/handler.php" method="post" class="form" name="formPurchape">
                     <div class="inputFormInfo">
                         <div class="collum1">
                             <label for="enterName" class="labelForm">NAME</label><br>
@@ -133,7 +135,7 @@
                         <button type="button" id="purchaseBtn" class="butPurchase" name="purchaseBtn">PURCHASE</button>
                     </div>
 
-                    <!-- Modal Input Window -->
+                    <!-- Modal data validation window -->
                     <div class="modal" id="dataValidation">
                         <div class="modal_content">
                             <div class="dataPurchase">

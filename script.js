@@ -15,6 +15,7 @@ let data = {
     fModal: document.getElementById("dataModel")
 }
 
+// The function of adding data from the form to the modal window
 function enterData() {
     let nameF =    document.getElementById("enterName").value;
     let surnameF = document.getElementById("enterSurname").value;
@@ -39,6 +40,7 @@ function enterData() {
     }
 }
 
+// Data validation function
 function validationData(arr) {
     for(let i of arr) {
         if (i == "") {
@@ -49,6 +51,7 @@ function validationData(arr) {
     return true;
 }
 
+// Function to open a modal window
 purchaseBtn.onclick = function() {
     enterData();
 
@@ -60,10 +63,11 @@ purchaseBtn.onclick = function() {
     
 }
 
+// Modal close function
 butCancel.onclick = function() {
     dataValidation.style.display = "none";
 }
-
+// Modal close function
 window.onclick = function(event) {
     if (event.target == dataValidation) {
         dataValidation.style.display = "none";
@@ -76,6 +80,7 @@ let phoneF =   document.getElementById("enterPhone").value;
 let addressF = document.getElementById("enterAddress").value;
 let modalF =   document.getElementById("enterModel").value;
 
+// Function to disable the form error message
 function disableErrMess() {
     errMessage.style.display = "none";
 }
