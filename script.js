@@ -28,11 +28,11 @@ function enterData() {
     validationData(dataForm);
 
     if(validationData(dataForm)){
-        data.fName.innerHTML =    document.getElementById("enterName").value;
-        data.fSurname.innerHTML = document.getElementById("enterSurname").value;
-        data.fPhone.innerHTML =   document.getElementById("enterPhone").value;
-        data.fAddress.innerHTML = document.getElementById("enterAddress").value;
-        data.fModal.innerHTML =   document.getElementById("enterModel").value;
+        data.fName.innerHTML =    dataForm[0];
+        data.fSurname.innerHTML = dataForm[1];
+        data.fPhone.innerHTML =   dataForm[2];
+        data.fAddress.innerHTML = dataForm[3];
+        data.fModal.innerHTML =   dataForm[4];
 
         return true;
     }else{
@@ -73,12 +73,6 @@ window.onclick = function(event) {
         dataValidation.style.display = "none";
     }
 }
-
-let nameF =    document.getElementById("enterName").value;
-let surnameF = document.getElementById("enterSurname").value;
-let phoneF =   document.getElementById("enterPhone").value;
-let addressF = document.getElementById("enterAddress").value;
-let modalF =   document.getElementById("enterModel").value;
 
 // Function to disable the form error message
 function disableErrMess() {
